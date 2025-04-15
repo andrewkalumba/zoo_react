@@ -1,0 +1,16 @@
+.navItem {
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+}
+
+.hidden {
+    display: flex;
+}
+
+  @media screen and  (max-width: 768px) { 
+   .hidden {
+        display: none;
+    }
+
+  }

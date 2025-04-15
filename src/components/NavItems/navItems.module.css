@@ -1,0 +1,12 @@
+.active {
+    color: brown;
+} 
+
+.nav {
+   color: blueviolet;
+    text-decoration: none;
+}
+
+.nav:hover {
+    color: darkgoldenrod;
+}

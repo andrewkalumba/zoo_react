@@ -1,0 +1,34 @@
+.header {
+    background-color: cadetblue;
+    display: flex;
+    margin: 0;
+    width: 100%;
+    color: #fff;
+}
+
+.pageTitle {
+    width: 100%;
+    margin: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    text-align: center;
+}
+@media screen and (max-width: 768px) {
+
+    .header {
+        display: flex;
+        flex: 0 0 60%;
+        padding: 16px;
+    }
+    .pageTitle {
+        display:inline;
+        font-size: 1rem;
+    }
+
+    .title {
+        font-size: 1rem;
+        padding-bottom: 15px;
+    }
+    
+  }

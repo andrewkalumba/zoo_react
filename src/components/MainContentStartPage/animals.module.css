@@ -1,0 +1,40 @@
+.animals {
+    flex: 0 0 40%;
+    border: 2px solid brown;
+    padding: 16px;
+}
+
+.main {
+    background-color: #66635B; 
+    /* background-color: #FFE1A8; */
+    text-align: center;
+    /* border: 2px solid paleturquoise; */
+    padding: 16px;
+    height: 100vh;
+}
+
+.image {
+    width: 40%;
+    height: auto;
+    border-radius: 50px;
+}
+
+.groupName {
+    text-transform: uppercase;
+}
+
+.description {
+    padding: 10px;
+    font-size: 1.1rem;
+    word-spacing: 4px;
+}
+
+/* .container {
+    padding: 20px;
+}  */
+
+@media screen and (max-width:768px) {
+    .main {
+        height: auto;
+    }
+}

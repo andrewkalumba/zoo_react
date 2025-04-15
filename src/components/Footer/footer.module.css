@@ -1,0 +1,56 @@
+.footer {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding: 10px;
+}
+
+.pageTitle {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.elites {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 30px;
+}
+
+.email_link:hover {
+    color: brown;
+}
+
+.footerLogo {
+    flex: 0 0 30%;
+}
+
+.footerLogo h2 {
+    font-size: 1rem;
+}
+
+.footerLogo h2:hover {
+    background-color: #4F5165;
+    color: wheat;
+}
+
+.footer-contact h4 {
+    font-size: 1.5rem;
+}
+
+ul li {
+    text-align: center;
+    list-style-type: none;
+}
+
+/* @media screen and (max-width:768px) {
+    .footer{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding: 10px;
+    bottom: -75%;
+    position: absolute;
+    }
+} */
