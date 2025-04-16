@@ -4,7 +4,7 @@
 }
 
 .image {
-  width: 40%;
+  width: 30%;
   height: auto;
   border-radius: 20PX;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.9);
@@ -20,26 +20,26 @@
   margin-top: 0;
 }
 
-
 .backdrop {
   position: absolute;
-  top: 100px;
   left: 0;
   width: 100%;
+  background-color: rgb(4, 62, 72);
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 1000;
+  top: 120px;
+  height: 100%;
 }
 
 .content {
-  background-color: white;
-  padding: 2rem;
-  border-radius: 16px;
-  width: 90%;
-  max-width: 500px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.9);
+  width: 100%;
+  /* height: 100%; */
+  max-width: none;
+  max-height: 100vh;
   position: relative;
+  /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.9); */
 }
 
 .cardContainer {
@@ -100,4 +100,16 @@
     margin-top: 100%;
     padding: 5px
   } */
+
+  _backdrop_pivyc_23 {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: rgb(4, 62, 72); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    top: 70px;
+}
 }
