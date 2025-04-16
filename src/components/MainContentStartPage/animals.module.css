@@ -5,7 +5,7 @@
 }
 
 .main {
-    background-color: #66635B; 
+    background-color: #7f5e20; 
     /* background-color: #FFE1A8; */
     text-align: center;
     /* border: 2px solid paleturquoise; */
@@ -21,11 +21,12 @@
 
 .groupName {
     text-transform: uppercase;
+    font-size: 1.7rem;
 }
 
 .description {
-    padding: 10px;
-    font-size: 1.1rem;
+    padding: 16px;
+    font-size: 1.2rem;
     word-spacing: 4px;
 }
 
@@ -35,6 +36,25 @@
 
 @media screen and (max-width:768px) {
     .main {
-        height: auto;
+        height: 100vh;
+    }
+
+    .description {
+        font-size: 1.2rem;
+        padding: 10px;
+        width: auto;
+        height: 40%;
+        overflow: scroll;
+
     }
 }
+
+/* @media screen and (max-width:599px) {
+    .description {
+        font-size: 1rem;
+        padding: 5px;
+
+    }
+} */
+
+

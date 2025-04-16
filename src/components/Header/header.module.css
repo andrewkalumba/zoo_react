@@ -19,7 +19,6 @@
     .header {
         display: flex;
         flex: 0 0 60%;
-        padding: 16px;
     }
     .pageTitle {
         display:inline;
