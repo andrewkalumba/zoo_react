@@ -9,7 +9,7 @@ const AnimalsData = ({ wildLife3, showFullContent = false }) => {
   
     const FullContent = () => (
      <div className={styles.fullContent}>
-        <h2>{wildLife3.name}</h2>
+        <h2 className={styles.title2}>{wildLife3.name}</h2>
         <img className={styles.image} src={getImageUrl(wildLife3.image)} alt={wildLife3.name} />
         <p><strong>Food:</strong> {wildLife3.food}</p>
         <p><strong>Found:</strong> {wildLife3.found}</p>
@@ -22,7 +22,6 @@ const AnimalsData = ({ wildLife3, showFullContent = false }) => {
   
     return (
       <div className={styles.cardContainer}>
-        <div className={styles.card}>
             {!showFullContent &&
                 <div className={styles.lessInfo}>
           <h2>{`Name: ${wildLife3.name}`}</h2>
@@ -48,7 +47,6 @@ const AnimalsData = ({ wildLife3, showFullContent = false }) => {
             </>
           )}
         </div>
-      </div>
     );
   };
 

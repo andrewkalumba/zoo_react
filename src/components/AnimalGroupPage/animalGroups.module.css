@@ -45,7 +45,6 @@
     flex-direction: row;
     row-gap: 5px;
     flex-wrap: wrap;
-    padding: 10px 0 10px 0;
   }
 
   .active {
@@ -56,6 +55,7 @@
 
   .menuItem {
     height: 30%;
-    font-size: 1.4rem;
+    font-size: 1rem;
+    padding: 5px;
   }
 }
