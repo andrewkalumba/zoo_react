@@ -2,7 +2,6 @@
     background-color: cadetblue;
     display: flex;
     justify-content: center;
-    gap: 16px;
     padding: 10px;
 }
 
@@ -43,14 +42,9 @@ ul li {
     list-style-type: none;
 }
 
-/* @media screen and (max-width:768px) {
-    .footer{
-    background-color: cadetblue;
-    display: flex;
-    justify-content: center;
-    gap: 16px;
-    padding: 10px;
-    bottom: -75%;
-    position: absolute;
+@media screen and (max-width:768px) {
+    .footer {
+        display: grid;
+        /* margin-top: 47px; */
     }
-} */
+}
