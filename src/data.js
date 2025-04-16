@@ -14,7 +14,7 @@ export const animalsArray = [
     },
     {
         name: "Tasmanian Devil",
-        image: "tasmanianDevil2.jpg",
+        image: "Tasmanian_Devil.jpg",
         lifespan: "5 years",
         group: "mammals",
         food: "A predator, they eat meat from other animals such as wallabies and wombats",
@@ -36,7 +36,7 @@ export const animalsArray = [
     },
     {
         name: "Frill-necked Lizard",
-        image: "frill-necked lizard.jpg",
+        image: "Frilled-lizard.jpg",
         lifespan: "20 years",
         group: "reptiles",
         food: "Small insects and spiders",
@@ -47,7 +47,7 @@ export const animalsArray = [
     },
     {
         name: "Hawksbill Turtle",
-        image: "Hawksbill-turtle.jpg",
+        image: "Hawksbill-Turtle2.jpg",
         lifespan: "50 years",
         group: "reptiles",
         food: "Other animals (sponges & jellyfish), sea plants",
@@ -58,7 +58,7 @@ export const animalsArray = [
     },
     {
         name: "Perentie",
-        image: "Perentie.jpg",
+        image: "Perentie3.jpg",
         lifespan: "20 years",
         group: "reptiles",
         food: "Carnivore, they eat animals like kangaroos, rabbits, lizards and birds",
@@ -91,7 +91,7 @@ export const animalsArray = [
     },
     {
         name: "Yellow Tailed Black Cockatoo",
-        image: "Yellow_Tail_Black_Cockatoo.jpg",
+        image: "Yellow-tailedBlackCockatoo.jpg",
         lifespan: "41 years",
         group: "birds",
         food: "Fruit, seeds and other plant material",
