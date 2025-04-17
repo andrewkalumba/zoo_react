@@ -9,6 +9,7 @@ const AnimalsData = ({ wildLife3, showFullContent = false }) => {
 
   const FullContent = () => (
     <div className={styles.fullContent}>
+
       <h2 className={styles.title2}>{wildLife3.name}</h2>
       <img className={styles.image} src={getImageUrl(wildLife3.image)} alt={wildLife3.name} />
       <p><strong>Food:</strong> {wildLife3.food}</p>
