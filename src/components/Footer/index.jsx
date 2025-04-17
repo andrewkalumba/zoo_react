@@ -2,7 +2,7 @@ import styles from './footer.module.css'
 const Footer = () => {
     return (
         <footer className={styles.footer}>
-            <div className={styles.elites} >@2025 Stockholm Elites AB</div>
+            <div className={styles.elites} >@2025 Wild Safari Wonders</div>
 
             <div className={styles.footerLogo}>
                 <h2 className={styles.pageTitle}>About Us</h2>

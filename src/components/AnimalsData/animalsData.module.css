@@ -55,7 +55,7 @@
 .fullContent {
   background-color: rgb(4, 62, 72);
   padding: 16px;
-  font-size: 1.2rem;
+  font-size: 1rem;
   /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.9);
   border-radius: 16px; */
 }
@@ -112,10 +112,9 @@
     z-index: 1000;
     top: 90px;
   }
-  /* .fullContent {
-    font-size: 1.5rem;
-    height: 100vh;
-  } */
+  .fullContent {
+    font-size: 1rem;
+  }
 /* 
   .description {
     font-size: 1rem;
