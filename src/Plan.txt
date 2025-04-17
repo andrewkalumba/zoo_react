@@ -1,0 +1,22 @@
+1. Header * Logo
+          * Title
+          * navigation
+            => Routes
+            => State
+            => Active class
+
+Components needed * animalGroupPage= index, css
+* animalsData = index, css
+* Header
+*Logo
+*Footer
+
+2. SideBar * List of animals from the data.js (map over the array)
+            *State to move through the animals and display their respective information
+            => Active Class
+
+3. MainContent * Animal Info/data
+         *readMore button => opens up a popUp for more animal information
+
+4. Footer with contact data
+            

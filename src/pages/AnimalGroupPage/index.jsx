@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import { animalsArray, animalsMainData } from "../../data"
-import AnimalsData from "../AnimalsData"
-import MainContentStartPage from "../MainContentStartPage"
+import AnimalsData from "../../components/AnimalsData"
+import MainContentStartPage from "../../components/MainContentStartPage"
 import { useLocation } from "react-router-dom"
 import styles from './animalGroups.module.css'
 
