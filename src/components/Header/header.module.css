@@ -19,6 +19,7 @@
     .header {
         display: flex;
         flex: 0 0 60%;
+        padding: 12px;
     }
     .pageTitle {
         display:inline;
@@ -27,7 +28,7 @@
 
     .title {
         font-size: 1rem;
-        padding-bottom: 15px;
+        padding-bottom: 8px;
     }
     
   }

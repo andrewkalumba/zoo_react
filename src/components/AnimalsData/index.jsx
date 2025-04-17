@@ -15,7 +15,7 @@ const AnimalsData = ({ wildLife3, showFullContent = false }) => {
       <p><strong>Food:</strong> {wildLife3.food}</p>
       <p><strong>Found:</strong> {wildLife3.found}</p>
       <p><strong>Life:</strong> {wildLife3.lifespan}</p>
-      <p><strong>Description:</strong> {wildLife3.description}</p>
+      <p className={styles.description}><strong>Description:</strong> {wildLife3.description}</p>
       <p><strong>Length:</strong> {wildLife3.length}</p>
       <p><strong>Weight:</strong> {wildLife3.weight}</p>
     </div>
