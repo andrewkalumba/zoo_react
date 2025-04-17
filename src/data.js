@@ -24,6 +24,17 @@ export const animalsArray = [
         found: "Tasmania"
     },
     {
+        name:"Human",
+        image: "human2.jpg",
+        lifespan: "80 years",
+        group: "mammals",
+        food: "Omnivore, they eat anything",
+        description: "Humans are the most intelligent species on Earth. They are capable of complex thought, language, and problem-solving. Humans have a unique ability to create and use tools, which has allowed them to adapt to a wide range of environments. They are social animals, living in groups and forming complex societies.",
+        length: "1.7m",
+        weight: "70kg",
+        found: "Worldwide"  
+    },
+    {
         name: "Quokka",
         image: "quokka.jpg",
         lifespan: "10 years",
@@ -55,6 +66,18 @@ export const animalsArray = [
         length: "80cm (carapace)",
         weight: "50kg",
         found: "Tropical coasts of Queensland, Northern Territory and Western Australia"
+    },
+    {
+        name: "Egyptian cobra",
+        image: "cobra2.jpg",
+        lifespan: "20 years",
+        group: "reptiles",
+        food: "Carnivore, they eat small mammals, birds and reptiles",
+        description: "The Egyptian cobra (Naja haje) is a species of cobra found in North Africa and the Middle East. It is known for its distinctive hood and is often associated with ancient Egyptian culture.",
+        length: "2.4m",
+        weight: "10kg",
+        found: "North Africa and the Middle East"
+
     },
     {
         name: "Perentie",
@@ -99,6 +122,17 @@ export const animalsArray = [
         length: "65cm",
         weight: "900g",
         found: "SE Australia"
+    }, 
+    {
+        name: "Hen",
+        image: "hen.jpg",
+        lifespan: "5 years",
+        group: "birds",
+        food: "Omnivore, they eat grains, seeds, insects and small animals",
+        description: "The domestic hen (Gallus gallus domesticus) is a subspecies of the red junglefowl, domesticated for its eggs and meat. Hens are social animals, often kept in flocks, and are known for their clucking sounds.",
+        length: "40cm",
+        weight: "2kg",
+        found: "Worldwide"  
     }
 ];
 

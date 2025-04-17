@@ -1,5 +1,5 @@
 .footer {
-    background-color: cadetblue;
+    background-color: var(--primary-color);
     display: flex;
     justify-content: center;
     padding: 10px;
@@ -17,7 +17,7 @@
 }
 
 .email_link:hover {
-    color: brown;
+    color: var(--hover-color);
 }
 
 .footerLogo {
@@ -29,8 +29,8 @@
 }
 
 .footerLogo h2:hover {
-    background-color: #4F5165;
-    color: wheat;
+    background-color: var(--highlight-color);
+    color: var(text-color);
 }
 
 .footer-contact h4 {

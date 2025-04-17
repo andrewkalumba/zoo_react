@@ -1,12 +1,12 @@
 .active {
-    color: brown;
+    color: var(--hover-color);
 } 
 
 .nav {
-   color: blueviolet;
+   color: var(--nav-color);
     text-decoration: none;
 }
 
 .nav:hover {
-    color: darkgoldenrod;
+    color: var(--nav-hover-color)
 }

@@ -1,9 +1,9 @@
 .header {
-    background-color: cadetblue;
+    background-color: var(--primary-color);
     display: flex;
     margin: 0;
     width: 100%;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.9);
+    box-shadow: var(--box-shadow);
 }
 
 .pageTitle {
@@ -11,7 +11,7 @@
     margin: 0;
     text-decoration: none;
     text-transform: uppercase;
-    padding-bottom: 15px;
+    padding-bottom: var(--padding2);
     text-align: center;
 }
 @media screen and (max-width: 768px) {
@@ -19,7 +19,7 @@
     .header {
         display: flex;
         flex: 0 0 60%;
-        padding: 12px;
+        padding: var(--padding4);
     }
     .pageTitle {
         display:inline;

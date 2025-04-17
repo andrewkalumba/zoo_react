@@ -5,7 +5,38 @@
 }
 
 #root {
-  text-align: center;
+--primary-color: cadetblue;
+--hover-color: brown;
+--text-color: wheat;
+--highlight-color: #4F5165;
+--secondary-bg: rgb(4, 62, 72);
+--menu-hover: #f5f5f5;
+--menu-active: #e0f7fa;
+--nav-color: blueviolet;
+--nav-hover: darkgoldenrod;
+--card-bg: #3B4145;
+--less-info-bg: hsla(0, 100%, 0%, 0.4);
+--main-bg: #7f5e20;
+
+--font-xs: 1rem;
+--font-sm: 1.2rem;
+--font-md: 1.4rem;
+--font-lg: 1.5rem;
+--font-xl: 1.7rem;
+
+--padding: 5px;
+--padding1: 10px;
+--padding2: 15px;
+--padding3: 16px;
+--padding4: 12px;
+--margin-top: 30px;
+
+--radius1: 16px;
+--radius2: 50px;
+
+--box-shadow: 0 4px 12px rgba(0, 0, 0, 0.9);
+--box-shadow2: 0 4px 10px rgba(0, 0, 0, 0.1);
+--box-shadow-hover: 0 4px 12px rgba(0, 0, 0, 0.5);
 }
 
 body {

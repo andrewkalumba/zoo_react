@@ -1,32 +1,32 @@
 .animals {
     flex: 0 0 40%;
     border: 2px solid brown;
-    padding: 16px;
+    padding: var(--padding3);
 }
 
 .main {
-    background-color: #7f5e20; 
+    background-color: var(--main-bg); 
     /* background-color: #FFE1A8; */
     text-align: center;
     /* border: 2px solid paleturquoise; */
-    padding: 16px;
+    padding: var(--padding3);
     height: 100vh;
 }
 
 .image {
     width: 40%;
     height: auto;
-    border-radius: 50px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.9);
+    border-radius: var(--radius2);
+    box-shadow: var(--box-shadow);
 }
 
 .groupName {
     text-transform: uppercase;
-    font-size: 1.7rem;
+    font-size: var(--font-xl);
 }
 
 .description {
-    padding: 16px;
+    padding: var(--padding3);
     font-size: 1rem;
     word-spacing: 4px;
 }
@@ -41,8 +41,8 @@
     }
 
     .description {
-        font-size: 1.2rem;
-        padding: 10px;
+        font-size: var(--font-sm);
+        padding: var(--padding1);
         width: auto;
         height: 40%;
         overflow: scroll;
