@@ -2,7 +2,6 @@ import AnimalGroupPage from './pages/AnimalGroupPage'
 import { useState } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Layout from './pages/Layout'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   const [wildLife, setWildLife] = useState(null)
@@ -12,7 +11,6 @@ function App() {
   }
 
   return (
-    <Router>
     <Routes>
       <Route element={<Layout updateFunction2={updateFunction} />}>
         <Route path="/" element={<AnimalGroupPage groupName="all" updateFunction2={updateFunction} wildLife2={wildLife} isHomePage={true} />} />
@@ -21,7 +19,6 @@ function App() {
         <Route path="/reptiles" element={<AnimalGroupPage groupName="reptiles" updateFunction2={updateFunction} wildLife2={wildLife} />} />
       </Route>
     </Routes>
-    </Router>
   )
 }
 
