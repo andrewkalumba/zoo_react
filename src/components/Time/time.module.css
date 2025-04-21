@@ -1,0 +1,21 @@
+.timeClock {
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: var(--nav-color);
+    padding: 16px;
+    font-weight: bold;
+    box-shadow: 0 0 8px #00ffcc;
+    display: inline-block;
+    letter-spacing: 2px;
+  }
+  
+
+.timeClock:hover {
+    color: var(--hover-color);
+}
+
+@media screen and (max-width:768px) {
+    .timeClock {
+        display: none;
+    }
+}

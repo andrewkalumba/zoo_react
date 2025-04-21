@@ -3,6 +3,7 @@ import { animalsArray, animalsMainData } from "../../data"
 import AnimalsData from "../../components/AnimalsData"
 import MainContentStartPage from "../../components/MainContentStartPage"
 import { useLocation } from "react-router-dom"
+import Bubbles from "../../components/Bubbles"
 import styles from './animalGroups.module.css'
 
 const AnimalGroupPage = ({ groupName = "all", updateFunction2, wildLife2, isHomePage }) => {
@@ -51,8 +52,10 @@ const AnimalGroupPage = ({ groupName = "all", updateFunction2, wildLife2, isHome
 
     return (
         <div className={styles.container}>
+              <Bubbles bubbleCount={30} />
             <div className={styles.sideMenu}>
-                {groupList.map((animal, index) => { const isActive = wildLife2 && wildLife2.name === animal.name
+                {groupList.map((animal, index) => {
+                    const isActive = wildLife2 && wildLife2.name === animal.name
                     return (
                         <span key={index} onClick={() => handleClick(animal)} className={`${styles.menuItem} ${isActive ? styles.active : ""}`}> {animal.name} </span>
                     )

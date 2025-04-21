@@ -3,6 +3,7 @@ import Navigation from "../Navigation";
 import styles from './header.module.css';
 import HamburgerMenu from "../HamburgerMenu";
 import { useState } from 'react';
+import Time from "../Time";
 
 const Header = ({ updateFunction3 }) => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,6 +21,8 @@ const Header = ({ updateFunction3 }) => {
                 <Navigation updateFunction4={updateFunction3} isMobile={!isMenuOpen} />
             </div>
             <HamburgerMenu updateFunction4={handleMenuToggle} />
+            <Time/>
+        
         </div>
     );
 };
