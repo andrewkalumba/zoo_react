@@ -8,7 +8,6 @@ import Time from "../Time";
 const Header = ({ updateFunction3 }) => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-    // Function to toggle menu
     const handleMenuToggle = () => {
         setIsMenuOpen(prev => !prev);
     };
@@ -17,12 +16,11 @@ const Header = ({ updateFunction3 }) => {
         <div className={styles.header}>
             <Logo />
             <div className={styles.pageTitle}>
-                <h1 className= {styles.title}>Wild Safari Wonders</h1>
+                <h1 className={styles.title}>Wild Safari Wonders</h1>
                 <Navigation updateFunction4={updateFunction3} isMobile={!isMenuOpen} />
             </div>
             <HamburgerMenu updateFunction4={handleMenuToggle} />
-            <Time/>
-        
+            <Time />
         </div>
     );
 };

@@ -1,5 +1,6 @@
 .active {
     color: var(--hover-color);
+    text-decoration: none;
 } 
 
 .nav {

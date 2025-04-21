@@ -1,23 +1,24 @@
+import { FaInstagram, FaTwitter, FaFacebookF, FaYoutube } from 'react-icons/fa';
 import styles from './footer.module.css'
+
 const Footer = () => {
+
     return (
         <footer className={styles.footer}>
-            <div className={styles.elites} >@2025 Wild Safari Wonders</div>
+            <div className={styles.footerContent}>
 
-            <div className={styles.footerLogo}>
-                <h2 className={styles.pageTitle}>About Us</h2>
-                <ul>
-                    <li>
-                        <a href="+46 760347287"> Contact: +46 760347287</a>
-                    </li>
-                    <li>
-                        <a className={styles.email_link} href="mailto:andrewkalumba29@gmail.com">Email Us: andrewkalumba29@gmail.com</a>
-                    </li>
-                </ul>
+                <div className={styles.socialIcons}>
+                    <a href="https://instagram.com" target="_blank"><FaInstagram /></a>
+                    <a href="https://twitter.com" target="_blank"><FaTwitter /></a>
+                    <a href="https://facebook.com" target="_blank"><FaFacebookF /></a>
+                    <a href="https://youtube.com" target="_blank"><FaYoutube /></a>
+                </div>
+                <p>© {new Date().getFullYear()} Wild Safari Wonders</p>
             </div>
         </footer>
-    )
-}
+    );
+};
 
-export default Footer
+export default Footer;
+
 
