@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react"
 import { useLocation } from "react-router-dom"
 import { animalsArray, animalsMainData } from "../../data"
-import AnimalsData from "../../components/AnimalsData"
-import MainContentStartPage from "../../components/MainContentStartPage"
+import AnimalsData from "../AnimalsData"
+import MainContentStartPage from "../MainContentStartPage"
 import Bubbles from "../../components/Bubbles"
 import styles from './animalGroups.module.css'
 

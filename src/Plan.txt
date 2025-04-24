@@ -1,28 +1,34 @@
-1. Header * Logo
-          * Title
-          * navigation
-            => Routes
-            => State
-            => Active classes
+1. Header will contain
+     * Logo
+     * Title
+     * navigation
+        => Routes/ routing to different links
+        => State
+        => Active classes
 
 Components needed 
+* Header
+* Logo
+* navigation[navItems]
+* hamburgerMenu
+* Time => hooks(useState and useEffect)
+* Bubbles => hooks(useState and useEffect)
+* Footer
+
+Pages
 * animalGroupPage= index, css
 * animalsData = index, css
-* Header
-*Logo
-*Time => hooks(useState and useEffect)
-*Bubbles => hooks(useState and useEffect)
-*Footer
+* MainContent * Animal Info/data 
+         *readMore button => opens up a popUp for more animal information (means there is state)
 
 2. SideBar * List of animals from the data.js (map over the array)
             *State to move through the animals and display their respective information
             => Active Class
 
-3. MainContent * Animal Info/data 
-         *readMore button => opens up a popUp for more animal information (means there is state)
+3.Footer with contact data
+  *socialMedia links, email, number
 
-4. Footer with contact data
-
-others
+others/ Take in mind
 * MediaQueries for mobileView (min-width: 768px)
+* CSS variables 
             
