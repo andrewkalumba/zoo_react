@@ -49,6 +49,7 @@
   }
 
   .active {
+    background-color: var(--nav-hover);
     font-weight: bold;
     border-left: 5px solid rgb(79, 209, 197);
   }
