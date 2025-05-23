@@ -1,35 +1,6 @@
 .container {
   display: flex;
   height: 100vh;
-  /* overflow: scroll; */
-}
-
-.sideMenu {
-  display: flex;
-  flex-direction: column;
-  flex: 0 0 20%;
-  border-right: 1px solid #ddd;
-  background-image: url(../../assets/nature.jpg);
-}
-
-.menuItem {
-  background-color: var(--secondary-bg);
-  padding: var(--padding1);
-  cursor: pointer;
-  font-size: var(--font-sm);
-  height: 15vh;
-  border-left: 5px solid #e0f7fa;
-  transition: background-color 0.5s, border-color 0.4s;
-}
-
-.menuItem:hover {
-  background-color: var(--menu-hover);
-}
-
-.active {
-  background-color: var(--menu-active);
-  font-weight: bold;
-  border-left: 5px solid #790000;
 }
 
 @media screen and (max-width:768px) {
@@ -38,29 +9,5 @@
     display: flow;
     background-image: url(../../assets/nature.jpg);
     height: 100vh;
-  }
-
-  .sideMenu {
-    background-image: none;
-    display: flex;
-    flex-direction: row;
-    row-gap: 5px;
-    flex-wrap: wrap;
-  }
-
-  .active {
-    background-color: var(--nav-hover);
-    font-weight: bold;
-    border-left: 5px solid rgb(79, 209, 197);
-  }
-
-  .menuItem {
-    height: 30%;
-    font-size: var(--font-xs);
-    padding:var(--padding);
-  }
-
-  .menuItem:hover {
-    background-color: var(--nav-hover);
   }
 }

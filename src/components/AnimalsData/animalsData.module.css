@@ -35,11 +35,9 @@
 
 .content {
   width: 100%;
-  /* height: 100%; */
   max-width: none;
   max-height: 100vh;
   position: relative;
-  /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.9); */
 }
 
 .cardContainer {
@@ -47,17 +45,12 @@
   height: 100vh;
   width: 100%;
   text-align: center;
-  /* background-image: url(/src/assets/king.jpg);
-  background-size: cover;
-  background-repeat: repeat; */
 }
 
 .fullContent {
   background-color: rgb(4, 62, 72);
   padding: 16px;
   font-size: 1rem;
-  /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.9);
-  border-radius: 16px; */
 }
 
 .button {
@@ -92,16 +85,6 @@
     padding: 0;
   }
 
-  /* 
-  .backdrop {
-    height: 35vh;
-  } */
-
-  /* .fullContent {
-    margin-top: 100%;
-    padding: 5px
-  } */
-
   .backdrop {
     position: absolute;
     left: 0;
@@ -116,9 +99,4 @@
   .fullContent {
     font-size: 1rem;
   }
-/* 
-  .description {
-    font-size: 1rem;
-  } */
-
 }
