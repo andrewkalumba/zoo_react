@@ -1,6 +1,6 @@
 import AnimalsData from "../AnimalsData";
 import MainContentStartPage from "../MainContentStartPage";
-import styles from "./MainContent.module.css";
+import styles from "./mainContent.module.css";
 
 const MainContent = ({ showPage, wildLife2, isHomePage, defaultAnimal }) => {
   return (
